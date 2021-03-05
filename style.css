@@ -1,0 +1,204 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.gameboy {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(197, 197, 171);
+    border: 3px solid rgb(31, 30, 30);
+    top: 10px;
+    left: 500px;
+    border-radius: 20px;
+    -webkit-box-shadow: 16px 13px 26px 14px #414040; 
+    box-shadow: 16px 13px 26px 14px #474646;
+}
+
+.square {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    top: 400px;
+    left: 530px;
+    border-radius: 5px;
+}
+
+.square:hover{
+    transform: rotate(5deg);
+}
+
+
+.square-2 {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    top: 400px;
+    left: 530px;
+    border-radius: 5px;
+    transform: rotate(90deg);
+    
+}
+
+.square-2:hover{
+    transform: rotate(95deg);
+}  
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(136, 13, 79);
+    top: 400px;
+    left: 720px;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    top: 402px;
+    left: 725px;
+    background-color: rgb(47, 203, 231);
+
+}
+.circle-2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(136, 13, 79);
+    top: 350px;
+    left: 800px;
+    border-radius: 50%;
+
+}
+
+.circle-2:hover{
+    top: 352px;
+    left: 805px;
+    background-color: rgb(74, 197, 201);
+
+}
+
+.screen {
+    width: 310px;
+    height: 220px;
+    background-color: rgb(121, 117, 117);
+    border: 3px solid black;
+    top: 30px;
+    left: 540px;
+    border-radius: 20px;
+
+}
+
+.screen:hover{
+    filter: blur(10px);
+}
+
+.screen-2 {
+    width: 210px;
+    height: 180px;
+    background: linear-gradient(90deg, rgba(46,136,44,0.7861519607843137) 30%, rgba(223,64,184,1) 98%);
+    border: 3px solid black;
+    top: 50px;
+    left: 590px;
+    border-radius: 20px;
+}
+
+.screen-2:hover{
+    background: linear-gradient(90deg, rgba(237,255,13,0.7861519607843137) 1%, rgba(235,128,208,1) 98%);
+}
+.character {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(235, 187, 55);
+    top: 80px;
+    left: 620px;
+    border-radius: 50%;
+    animation: advanced-move 1s infinite alternate;
+}
+
+
+
+@keyframes advanced-move {
+    from {
+        left: 620px;
+
+    } 25% {
+        left: 700px;
+
+    } to { 
+        top: 120px;
+    }
+}
+
+.text {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(197, 198, 160);
+    top: 260px;
+    left: 550px;
+    border-radius: 20px;
+    
+}
+
+.select {
+    width: 50px;
+    height: 13px;
+    background-color: rgb(105, 104, 105);
+    top: 500px;
+    left: 610px;
+    border-radius: 8px;
+    transform: rotate(-30deg);
+    
+
+}
+
+.select:hover{
+    background-color: cornflowerblue;
+}
+
+.start {
+    width: 50px;
+    height: 13px;
+    background-color: rgb(105, 104, 105);
+    top: 520px;
+    left: 660px;
+    border-radius: 8px;
+    transform: rotate(-30deg);
+    
+}
+
+.start:hover{
+    background-color: cornflowerblue;
+}
+
+.character-2 {
+    width: 40px;
+    height: 50px;
+    background-color: rgb(235, 187, 55);
+    top: 80px;
+    left: 720px;
+    transform: skew(50deg);
+    
+}
+
+.scale {
+    width: 70px;
+    height: 50px;
+    background-color: rgb(34, 49, 133);
+    top: 450px;
+    left: 800px;
+    border-radius: 20px;
+    opacity: 0.5;
+
+
+}
+
+.scale:hover {
+    transform: scale(1,2);
+}
